@@ -10,6 +10,7 @@ import { db } from '../firebase';
 import Message from './Message';
 
 function Chat() {
+    // Hello
     const chatRef = useRef(null);
     const roomId = useSelector(selectRoomId);
     const [roomDetails] = useDocument (
